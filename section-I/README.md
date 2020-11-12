@@ -66,23 +66,28 @@ print(my_set) // {1, 2, 3, 5, "Kickstart"}
 The slicing operator [] does not work with set objects.
 
 ## Dictionary
+
 Dictionary is an unordered collection of key-value pairs.
 
 It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
 
 In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
 
->>> d = {1:'value','key':2}
->>> type(d)
-<class 'dict'>
+```py
+d = {1:'value','key':2}
+```
+
 We use key to retrieve the respective value. But not the other way around.
 
+```py
 d = {1:'value','key':2}
 print(type(d))
+print(d[1]);
+print(d['key']);
+```
 
-print("d[1] = ", d[1]);
+This generates error, since that key does not exist in our dictionary.
 
-print("d['key'] = ", d['key']);
-
-# Generates error
+```py
 print("d[2] = ", d[2]);
+```
