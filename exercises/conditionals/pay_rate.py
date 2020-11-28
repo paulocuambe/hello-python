@@ -1,6 +1,6 @@
 try:
-    hours = float(input("How many hours did you work?\n"))
-    rate = float(input("What is you pay rate per hour?\n"))
+    hours = float(input("How many hours did you work? "))
+    rate = float(input("What is you pay rate per hour? "))
 
     # Give the employee 1.5 times the hourly rate for hours worked above 40 hours
     if hours > 160:
