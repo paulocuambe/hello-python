@@ -4,19 +4,19 @@ This are the topics I will be studying.
 
 ## Section I
 
-- [ ] Python Programming Basics
-- [ ] Variable Names
-- [ ] Basic Operators
-- [ ] Core Data types
-- [ ] Numeric Types
-- [ ] Precedence and Associativity
+- [x] Python Programming Basics
+- [x] Variable Names
+- [x] Basic Operators
+- [x] Core Data types
+- [x] Numeric Types
+- [x] Precedence and Associativity
 
 ## Section II
 
-- [ ] Exception Handling
-- [ ] Pseudocode, Algorithms and Examples
-- [ ] Sequence, Selection and Iteration
-- [ ] Python Functions (Functional Programming)
+- [x] Exception Handling
+- [x] Pseudocode, Algorithms and Examples
+- [x] Sequence, Selection and Iteration
+- [x] Python Functions (Functional Programming)
 - [ ] Classes and Objects
 
 ## Section III
@@ -28,3 +28,7 @@ This are the topics I will be studying.
 - [ ] Inheritance
 - [ ] Data Abstraction
 - [ ] Polymorphism
+
+---
+
+![String formtters](string-formatters.png)
