@@ -10,7 +10,6 @@ score = 0
 
 for i in range(1, 5):
     score += float(input(f"Your score in quizz {i}: "))
-print()
 
 has_20 = (2020 - year_birth) > 20
 startwith_25 = phone.startswith("25")
@@ -22,6 +21,8 @@ is_female = gender.lower() == "female"
 is_male = gender.lower() == "male"
 
 avg_score = score / 4
+
+print()
 
 if not is_student:
     print("You don't meet the treshold")
