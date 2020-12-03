@@ -20,7 +20,7 @@ is_male = gender.lower() == "male"
 avg_score = score / 4
 startwith_25 = phone.startswith("25")
 
-if is_african and is_female and has_20 and startwith_25 and avg_score >= 75 and avg_score <= 80:
+if is_african and is_female and has_20 and startwith_25 and avg_score >= 75:
     print("You qualify for a sholarship.")
 elif is_african and is_male and has_20 and startwith_25 and avg_score >= 80:
     print("You qualify for a sholarship.")
