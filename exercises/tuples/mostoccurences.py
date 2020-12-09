@@ -19,9 +19,6 @@ for line in fhand:
     for word in line.lower().split():
         words[word] = words.get(word, 0) + 1
 
-# convert dictionary to list of tuple (word, nr)
-lst = list(words.items())
-
 
 # extract the nr of repitition from the tuple
 def nr_repetitions(word):
@@ -29,6 +26,8 @@ def nr_repetitions(word):
     return rep
 
 
+# convert dictionary to list of tuple (word, nr)
+lst = list(words.items())
 # sort by nr of repitition in descending order
 lst.sort(key=nr_repetitions, reverse=True)
 for word, nr in lst[:10]:
